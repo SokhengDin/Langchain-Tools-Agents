@@ -2,6 +2,9 @@ import requests
 import base64
 import re
 import os
+import io
+import pytesseract
+
 from urllib.parse import urljoin
 from typing import List
 from langchain_core.tools import tool
@@ -10,10 +13,9 @@ from langchain_core.messages import HumanMessage, SystemMessage, AIMessage
 from langgraph.graph import StateGraph, START, END
 from langgraph.checkpoint.memory import MemorySaver
 from typing import TypedDict
+
 from bs4 import BeautifulSoup
-import pytesseract
 from PIL import Image
-import io
 from dotenv import load_dotenv
 
 load_dotenv()
