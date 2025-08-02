@@ -140,25 +140,3 @@ from scraper_content_agent import ScrapeContentAgent
 agent = ScrapeContentAgent()
 result = agent.process_content("Scrape https://news.site.com and write a report")
 ```
-
-## 🛡️ Security Features
-
-- **Environment Variables**: No hardcoded API URLs
-- **Content Filtering**: Automatic harmful content detection
-- **Safety Evaluation**: Specialized evaluation for sensitive topics
-- **Error Handling**: Comprehensive exception management
-
-## 📊 Performance Notes
-
-- **Streaming**: Real-time response streaming for better UX
-- **Caching**: Memory checkpointers for conversation history
-- **Parallel Processing**: Tool calls executed efficiently
-- **Resource Management**: Optimized model loading and usage
-
-## 🔍 Debugging & Monitoring
-
-Both agents provide detailed logging:
-- Tool execution status
-- Model response streaming
-- Error handling and recovery
-- Quality evaluation feedback
