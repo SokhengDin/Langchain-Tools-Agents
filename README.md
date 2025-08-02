@@ -109,8 +109,19 @@ pip install requests beautifulsoup4 pillow pytesseract  # For content agent
 ## 🔄 Workflow Diagrams
 
 Both agents automatically generate workflow diagrams:
-- `tool_agent_workflow.png` - Modern Tool Agent workflow
-- `scrape_content_agent_workflow.png` - Content Agent workflow
+
+### Modern Tool Agent Workflow
+![Tool Agent Workflow](tool_agent_workflow.png)
+
+### Multi-Model Content Agent Workflow  
+![Content Agent Workflow](scrape_content_agent_workflow.png)
+
+The diagrams show the complete execution flow including:
+- Input processing and analysis
+- Tool orchestration by Llama3.1
+- Model-specific processing (Gemma3 vision, Qwen3 writing/evaluation)
+- Quality reflection and feedback loops
+- Final output synthesis
 
 ## 🚀 Usage
 
