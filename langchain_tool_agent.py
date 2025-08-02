@@ -1,8 +1,8 @@
 import random
 import math
 import os
-from datetime import datetime
 
+from datetime import datetime
 from langchain_core.tools import tool
 from langchain_ollama import ChatOllama
 from langchain_core.messages import HumanMessage, SystemMessage
